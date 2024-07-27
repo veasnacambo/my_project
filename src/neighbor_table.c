@@ -10,7 +10,7 @@
 /*
 *   @note key that store neighbors data of the network
 */
-#define nvs_neighbors_table_offset 5
+#define nvs_neighbors_table_offset 0x5
 #define max_group_chat 30
 NeighborInfo_t my_info ={0};
 rmv_group_mem_info_t dataIn;

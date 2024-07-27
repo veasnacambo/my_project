@@ -18,16 +18,12 @@
 LOG_MODULE_REGISTER(MESH_LORA);
 #include <zephyr/logging/log.h>
 
-
-
 uint8_t ack_stae ;
 uint16_t k;
 NeighborInfo_t my_device_info = {0};
 NeighborTableInfo_t NTable ={0};
 
 GroupInfo_t GroupChatData;
-
-
 
 // stror group to delect in temporary
 NeighborInfo_t deldata;
